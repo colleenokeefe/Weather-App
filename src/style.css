@@ -1,0 +1,53 @@
+body {
+  background-image: url("ferriswheel.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header {
+  text-align: center;
+  font-family: "Roboto Serif", sans-serif;
+}
+h1 {
+  color: white;
+  font-size: 54px;
+  padding: 10px;
+}
+h2 {
+  color: white;
+  font-size: 62px;
+  padding: 5px;
+}
+h3 {
+  color: white;
+  padding: 10px;
+}
+h4 {
+  font-size: 44px;
+}
+.row {
+  text-align: center;
+}
+.locationsearch {
+  text-align: center;
+}
+.thisWeek {
+  border: 3px solid whiter;
+  padding: 20px;
+  margin: 30px 70px;
+}
+.weekDay {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.weekTemps {
+  font-size: 40px;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+#current-location {
+  text-align: center;
+  padding: 15px;
+}

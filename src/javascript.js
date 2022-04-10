@@ -39,7 +39,7 @@ function showWeather(response) {
 
   iconElement.setAttribute(
     "src",
-    "http://openweathermap.org/img/wn/10d@2x.png"
+    "https://openweathermap.org/img/wn/10d@2x.png"
   );
 }
 

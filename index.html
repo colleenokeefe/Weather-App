@@ -25,7 +25,15 @@
       <h1><span id="city">San Francisco</span></h1>
       <h2>
         <span id="current-temperature"> 17</span>
-        °C <br /><img
+        <span id="unit-choice"
+          ><a href="#" id="celsius-link" class="active">°C</a>|<a
+            href="#"
+            id="fahrenheit-link"
+            class="active"
+            >°F</a
+          ></span
+        >
+        <br /><img
           src="https://openweathermap.org/img/wn/04d@2x.png"
           alt="Clear"
           id="icon"
@@ -33,9 +41,8 @@
       </h2>
       <h3>
         <span id="description">Mostly Clear</span>
-        <br />
-        H: <span id="high">60 </span> <span class="unit">°C</span> L:
-        <span id="low">50 </span><span class="unit">°C</span><br />
+        <br /><span id="wind"> Wind:</span>
+        <span id="wind-speed">5.66</span> km/hr
       </h3>
       <h4>
         Sunday <br />

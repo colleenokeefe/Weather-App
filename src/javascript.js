@@ -37,11 +37,12 @@ function showWeather(response) {
   );
   let iconElement = document.querySelector("#icon");
 
-   iconElement.setAttribute(
+  iconElement.setAttribute(
     "src",
     `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
-
+  icon.Element.setAttribute("alt", response.data.weather[0].description);
+}
 function searchCity(event) {
   event.preventDefault();
   let cityInput = document.querySelector("#search-input");
